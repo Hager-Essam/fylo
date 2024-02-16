@@ -1,0 +1,253 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Raleway", Open-Sans;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+ul {
+    list-style: none;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.head ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.head ul li {
+    margin-right: 20px;
+}
+
+.pageOne {
+    padding: 50px;
+    display: flex;
+    margin-top: 120px;
+    line-height: 1.5;
+}
+
+.pageOne img {
+    width: 90%;
+    text-align: flex-end;
+    margin-top: -95px;
+}
+
+.pageOne p {
+    margin: 20px 0px;
+    font-weight: 600;
+}
+
+.pageOne div:first-of-type {
+    max-width: 520px;
+}
+
+.pageOne input,
+.pageOne button {
+    padding: 8px 50px;
+}
+
+.pageOne button {
+    margin-left: 10px;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    border-radius: 3px;
+}
+
+.pageTwo {
+    padding: 50px;
+    background-image: url("images/bg-curve-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    margin-top: 120px;
+    line-height: 1.5;
+}
+
+.pageTwo img {
+    width: 80%;
+    text-align: flex-end;
+    margin: 0px 0px 0px 10px;
+}
+
+.pageTwo p {
+    margin: 15px 0px;
+}
+
+.pageTwo div:first-of-type {
+    max-width: 520px;
+}
+
+.pageTwo .mannerOfwrok {
+    color: hsl(170, 45%, 43%);
+    border-bottom: 1px hsl(170, 45%, 43%) solid;
+    width: 180px;
+}
+
+.mannerOfwrok img:last-of-type {
+    width: 20px;
+}
+
+.mannerOfwrok {
+    display: flex;
+    justify-content: space-between;
+}
+
+.desc {
+    background-color: white;
+    width: 420px;
+    border-radius: 2px;
+    margin-top: 50px;
+    padding: 30px;
+    background: white;
+    box-shadow: 20px 20px 60px #bebebe,
+        -20px -20px 60px #ffffff;
+}
+
+.desc img {
+    width: 30px;
+
+}
+
+.desc div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.desc img:last-of-type {
+    border-radius: 50%;
+}
+
+.desc div:last-of-type {
+    margin-right: 60px;
+}
+
+.communication {
+    background-color: hsl(238, 22%, 44%);
+    display: flex;
+    padding: 100px;
+    line-height: 1.5;
+    justify-content: space-between;
+    color: white;
+}
+
+.communication p {
+    width: 430px;
+}
+
+.communication input {
+    padding: 10px 200px 10px 10px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px 10px 20px;
+    color: white;
+    background-color: hsl(224, 93%, 58%);
+    border: 1px;
+
+}
+
+.communication h1 {
+    margin-bottom: 10px;
+}
+
+.fylo {
+    background-color: hsl(243, 87%, 12%);
+    display: flex;
+    padding: 100px;
+    color: white;
+    justify-content: space-between;
+    line-height: 2;
+}
+
+.fylo h1 {
+    font-size: 50px;
+}
+
+.fylo div {
+    margin-top: -50px;
+}
+
+.fylo .social {
+    margin-top: 1px;
+}
+
+.fylo .social i {
+    border: 1px white solid;
+    padding: 5px;
+    border-radius: 50%;
+    margin: 2px;
+}
+
+span {
+    margin-right: 10px;
+    font-size: 15px;
+
+}
+
+
+@media (max-width:793px) {
+    .pageOne button {
+        width: 270px;
+        margin-top: 20px;
+        margin-left: -2px;
+    }
+
+    .pageOne input {
+        border: 1px black solid;
+    }
+
+    .pageOne h1,
+    p {
+        text-align: center;
+    }
+
+    .pageOne,
+    .pageTwo,
+    .communication {
+        display: block;
+        text-align: center;
+    }
+
+    .pageOne .desc{
+        width: 100px;
+    }
+    .fylo {
+        display: block;
+        text-align: left;
+    }
+
+    .communication {
+        padding: 20px;
+    }
+
+    .fylo .social {
+        text-align: center;
+    }
+
+    .pageOne .img {
+        margin-top: 100px;
+    }
+
+    .pageTwo img {
+        margin-top: 100px;
+
+    }
+}
