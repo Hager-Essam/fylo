@@ -258,8 +258,9 @@ span {
 
     .communication {
         width: 100%;
-        flex-wrap: wrap;
         display: block;
         text-align: center;
     }
+
+    
 }
